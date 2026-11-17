@@ -1,0 +1,890 @@
+= Scoring and Team Preparation
+RoboCupJunior Soccer 2027
+:revdate: 2026-11-17
+:toc: left
+:toclevels: 2
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+
+[IMPORTANT]
+====
+*DRAFT - awaiting committee approval.* Until this draft is approved, the official rules are the https://robocup-junior.github.io/soccer-rules/master/scoring.html[current published version].
+====
+
+RoboCupJunior Soccer +
+Award Criteria and Rubrics 2027
+
+These are the official award guidelines for the International RoboCupJunior Soccer League, issued by the RoboCupJunior Soccer League Committee.
+
+* *English comes first.* If a translation says something different, the English version is the one that counts.
+* *International Tournament only.* This document is guaranteed to be used at the International Tournament only. Regional tournaments may use it as it is, change it, or use their own way of ranking teams and giving awards. Ask the organisers of each tournament you enter which version they use.
+* *Questions or suggestions?* Visit the https://junior.forum.robocup.org/c/robocupjunior-soccer/5[*RoboCupJunior Soccer Forum*] or the https://discord.com/invite/45pxMQY4nJ[*RoboCupJunior Discord Server*].
+
+[[award-types]]
+== Awards at a glance
+
+Two kinds of awards are given at the International Tournament.
+
+[cols="1,3",options="header"]
+|===
+| Kind of award | How it works
+| *Trophy awards* | Only *one* team (or one SuperTeam) can win each trophy award.
+| *Certificate awards* | Given to *every* team that meets the excellence criteria. Any number of teams can win a certificate.
+|===
+
+[cols="2,4,2",options="header"]
+|===
+| Award | Who receives it | Read more
+| *Overall 1st, 2nd and 3rd place* | The three teams with the highest total score. The total combines the Individual Gameplay Tournament with all other scoring categories. | <<score-overview>>
+| *Community Award* | One team, chosen by the votes of the teams. | <<community-award>>
+| *SuperTeam Award* | Every team in the winning SuperTeam. SuperTeam results and individual team scores do not affect each other. | <<superteam-challenge>>
+| *Certificates* | Every team that qualifies: Gameplay Tournament 1st, 2nd, 3rd place; Outstanding Design; Outstanding Innovation; Outstanding Documentation; Exemplary Team. | <<certificates>>
+|===
+
+[[score-overview]]
+== How your score is built
+
+Your team earns points in seven *scoring categories*. Your final score is the sum of all seven.
+
+[cols="^1,6,^2,^3,^2",options="header"]
+|===
+| # | Scoring category | Max. points | Points per rating | Details
+| 1 | Individual Gameplay Tournament | *30* | By final place | <<individual-gameplay-tournament,4.1>>
+| 2 | Technical Documentation Paper (TDP) | *7* | 0 / 1 / 3 / 5, plus 2 bonus | <<technical-documentation-paper-tdp,4.2>>
+| 3 | Technical Poster and Presentation | *5* | 0 / 1 / 3 / 5 | <<poster-presentation,4.3>>
+| 4 | Group Interview | *5* | 0 / 1 / 3 / 5 | <<group-interview,4.4>>
+| 5 | Sportsmanship | *3* | 0 / 1 / 2 / 3 | <<sportsmanship,4.5>>
+| 6 | Documentation and Community Contribution | *5* | 0 / 1 / 3 / 5 | <<documentation-and-community-contribution,4.6>>
+| 7 | Robot Feature Video | *1* | 0 / 1 | <<robot-feature-video,4.7>>
+| | *Maximum total* | *56* | |
+|===
+
+In categories 2 to 7, your team receives a *rating*: Developing, Satisfactory, Proficient or Excellent (the video uses only the first two). The table shows the points for each rating, from lowest to highest.
+
+[[final-score-and-ties]]
+=== Final score and ties
+
+TIP: *Final score = Gameplay + TDP + Poster + Interview + Sportsmanship + Documentation and Community Contribution + Video.* The winner of the Community Award also receives *1 extra point* on the overall ranking (see <<community-award>>).
+
+*Tie-break.* If two or more teams have the same final score, the team that placed higher in the Individual Gameplay Tournament ranks higher.
+
+An overall score calculator is available here.
+
+*Example.* A team finishes 4th in the Individual Gameplay Tournament and receives the ratings below.
+
+[cols="4,4,^1",options="header"]
+|===
+| Scoring category | Result | Points
+| Individual Gameplay Tournament | 4th place | 24
+| Technical Documentation Paper (TDP) | Proficient (3) + both bonus points (2) | 5
+| Technical Poster and Presentation | Proficient | 3
+| Group Interview | Excellent | 5
+| Sportsmanship | Proficient | 2
+| Documentation and Community Contribution | Satisfactory | 1
+| Robot Feature Video | Satisfactory | 1
+| *Final score* | | *41*
+|===
+
+[[team-checklist]]
+== Team checklist
+
+Use this section to check that your team is ready. Each line links to the section with the full details.
+
+=== Before the event
+
+[cols="3,4,2,^1",options="header"]
+|===
+| What to do | How | Counts for | Details
+| *Complete the online TDP form* | The form is sent to you by official communication after you sign up for the international competition. Complete it before the competition. | TDP, up to 5 points | <<technical-documentation-paper-tdp,4.2>>
+| *Open-source your hardware and software files* | Hardware: CAD files, PCB files and schematic files. Software: your software repositories. Report them in the TDP form. | TDP bonus, 1 point each | <<technical-documentation-paper-tdp,4.2>>
+| *Create your poster* | Follow the poster requirements. You will receive official communication about how and when to submit it. | Poster, up to 5 points | <<poster-presentation,4.3>>
+| *Record your Robot Feature Video* | Shorter than 3 minutes, about the feature you are most proud of. | Video, 1 point | <<robot-feature-video,4.7>>
+| *Share your work publicly* | For example write-ups, videos, test results, instructions, source code, circuit diagrams or CAD files. | Documentation and Community Contribution, up to 5 points | <<documentation-and-community-contribution,4.6>>
+|===
+
+=== At the event
+
+[cols="3,4,2,^1",options="header"]
+|===
+| What to do | How | Counts for | Details
+| *Ask for language help if you need it* | Tell us as early as possible, for example at check-in at the Soccer desk. | Group Interview | <<group-interview,4.4>>
+| *Be on time, every time* | Attendance is taken at each match, Technical Challenge, SuperTeam match and interview. If you cannot take part, tell the referees. | Sportsmanship, up to 3 points | <<sportsmanship,4.5>>
+| *Play the Individual Gameplay Tournament* | Your final place is turned into points. | Gameplay, up to 30 points | <<individual-gameplay-tournament,4.1>>
+| *Present your poster at the poster session* | Stay with your poster, talk with visitors and answer their questions. | Poster, up to 5 points | <<poster-presentation,4.3>>
+| *Attend your Group Interview* | Bring your robots, laptops and programming equipment. | Interview, up to 5 points | <<group-interview,4.4>>
+| *Play in the SuperTeam Challenge* | Work together with the other teams in your SuperTeam. | SuperTeam Award. Your behaviour counts for Sportsmanship. | <<superteam-challenge,7>>
+| *Vote for the Community Award* | Every team must vote. You may not vote for your own team. | Community Award | <<community-award,5>>
+|===
+
+[[score-criteria-and-rubrics]]
+== Scoring categories in detail
+
+Each category below tells you what to do, what the judges look for, and how the points are given.
+
+[[individual-gameplay-tournament]]
+=== Individual Gameplay Tournament
+
+NOTE: *Maximum 30 points.* Your final place in the Individual Gameplay Tournament is turned into points for the overall ranking.
+
+[cols="1,4",options="header"]
+|===
+| Final place | Points
+| *1st* | 30 points
+| *2nd* | 27 points
+| *3rd* | 25 points
+| *4th and below* | Each place earns 1 point less than the place above it, but never less than 0 points.
+|===
+
+.Example with 29 teams
+[cols="9*^",options="header"]
+|===
+| 1st | 2nd | 3rd | 4th | 5th | ... | 27th | 28th | 29th
+| 30 | 27 | 25 | 24 | 23 | ... | 1 | 0 | 0
+|===
+
+[[technical-documentation-paper-tdp]]
+=== Technical Documentation Paper (TDP)
+
+NOTE: *Maximum 7 points.* Up to *5 points* from the rubric, plus *2 bonus points* for open-sourcing your work.
+
+==== What it is
+
+The TDP shows the work your team did on the electrical, mechanical, software and strategy parts of your robot. It must show that the students did the work. It is a resource for everyone: your own team and all future teams.
+
+==== What you need to do
+
+* Complete the online TDP form before the competition. A TDP form that is not submitted on time is rated Developing. The form is a set of questions that guides you through a structured document. The Soccer Committee uses a form to make the process simpler for teams and educators.
+* Your answers are compiled into your team's TDP and published. No separate paper is required.
+* You will receive the form by official communication after you sign up for the international competition.
+
+==== Bonus points
+
+[cols="2,5,^1",options="header"]
+|===
+| Bonus | What you open-source | Points
+| *Hardware* | CAD files, PCB files and schematic files | *+1*
+| *Software* | Software repositories | *+1*
+|===
+
+Both bonus points are claimed through the TDP form.
+
+==== Rubric
+
+[cols="2,3,3,3,3",options="header"]
+|===
+| Criterion | Developing +
+0 points | Satisfactory +
+1 point | Proficient +
+3 points | Excellent +
+5 points
+
+| *Electrical*
+a|
+* Little or no original pictures, videos, CAD renderings, schematics, sketches or work.
+* Uses other people's work without credit, for example a previous team's work with no reference.
+a|
+* Basic details of the electrical design.
+* Some original pictures or diagrams.
+* May have small problems with credits, or may be unclear.
+a|
+* Enough detail for a technical reader to repeat the design process.
+* Original pictures or diagrams, for example wiring diagrams, schematics or photos.
+* The design appears to be made by the students.
+a|
+* Meets all Proficient criteria in this row, and:
+* Evaluates how resources were used, for example budget, tools and components.
+* Gives reasons for design decisions based on data.
+* Reflects on failures and improvements.
+* Shows growth in electrical knowledge.
+
+| *Mechanical*
+a|
+* No clear design process or visuals.
+* Very few mechanical diagrams or construction steps.
+* May reuse content without context or credit.
+a|
+* Basic steps of the mechanical construction.
+* Some original work, for example CAD or prototypes.
+* Describes how parts were built or assembled.
+a|
+* Clearly describes the mechanical strategy and the design iterations.
+* Visuals support the text, for example annotated CAD or exploded views.
+* Includes test data or notes on how the design was evaluated.
+a|
+* Meets all Proficient criteria in this row, and:
+* Explains design trade-offs and limits, for example weight, materials and mobility.
+* Includes revisions based on performance.
+* Shows one clear mechanical strategy linked to the robot's goals.
+
+| *Software*
+a|
+* Software documentation is missing or unclear.
+* Code snippets are not original, not explained or have no context.
+* No evidence of debugging or iteration.
+a|
+* Some code is explained with comments or screenshots.
+* Basic overview of the programming languages, libraries or platforms used.
+a|
+* Gives real insight into how the code is structured and what it does.
+* Describes the algorithms and control schemes.
+* Some discussion of testing and refinement.
+a|
+* Meets all Proficient criteria in this row, and:
+* Includes use of version control, flowcharts or pseudocode.
+* Reflects on debugging, testing and how the code changed over time.
+* Shows thoughtful programming choices linked to performance.
+
+| *Presentation*
+a|
+* Disorganised or incomplete.
+* Poor formatting and hard to navigate.
+* No table of contents and no section labels.
+a|
+* Readable, with a basic structure.
+* Sections are labelled but may be unclear or unpolished.
+* Dates or team member credits may be missing.
+a|
+* Well organised and easy to navigate.
+* Sections are clearly labelled and give context, for example team roles and dates.
+* Shows collaboration across sub-teams.
+a|
+* Meets all Proficient criteria in this row, and:
+* Tells the story of the team's journey clearly.
+* Shows thoughtful storytelling, good appearance and professionalism.
+* References all sources and includes team reflections.
+|===
+
+[[poster-presentation]]
+=== Technical Poster and Presentation
+
+NOTE: *Maximum 5 points.* One rating covers both your poster and how you present it at the poster session.
+
+==== What it is
+
+Your poster shares your robot's design and what you discovered with everyone, during and after the event. RoboCupJunior keeps all posters after the event so future teams can study them.
+
+==== What you need to do
+
+* *Before the competition:* create a poster about your robot and your team. You will receive official communication about how and when to submit it.
+* *During the competition:* take part in the poster session. Teams show their own posters, look at the posters of other teams, and explain parts of their robots to share their innovations and designs. The discussion is in an open format.
+* *Want to see examples?* Posters from previous years are in the https://github.com/robocup-junior/awesome-rcj-soccer[Awesome RCJ Soccer GitHub repository].
+
+[[poster-requirements]]
+==== Poster requirements
+
+[cols="1,3",options="header"]
+|===
+| Item | What is required
+| *Size* | At most A1 size: 70.7 cm (28") high x 100.0 cm (40") wide, landscape.
+| *Title and identification* | Team name, region and sub-league.
+| *Abstract* | A short summary of the whole project. It covers the critical elements of the poster without repeating what is written elsewhere on the poster.
+| *Method, robot production and design*
+a| The choices you made while producing your robots, and the reasons for those choices. Production means design, construction, programming, component selection and the overall process.
+
+* State the programming language, the sensors used, and the time and cost of development.
+* Include a bill of materials for the major components.
+| *Data, results and discussion* | Details of how you developed and tested the robot, including any relevant data and the changes you made while creating it.
+| *Photos and images*
+a| All images, including graphics used for styling, must be your own or be available for non-commercial reuse with modification under a http://creativecommons.org/[Creative Commons licence].
+
+* Label and cite every photo or image, especially if it is not your own.
+| *Language* | All information on the poster must be in English.
+|===
+
+==== Rubric
+
+[cols="2,3,3,3,3",options="header"]
+|===
+| Criterion | Developing +
+0 points | Satisfactory +
+1 point | Proficient +
+3 points | Excellent +
+5 points
+
+| *Abstract*
+a|
+* Missing, unclear or incomplete.
+a|
+* Leaves out some critical parts of the poster, or
+* Repeats detailed information that is already on the poster.
+a|
+* Clearly summarises each critical part of the poster.
+* Uses clear, accurate technical terms and explains unfamiliar terms.
+a|
+* Meets all Proficient criteria in this row, and:
+* Clearly aims to share knowledge that another team can act on, for example instructions or a test method they can repeat.
+
+| *Method, production and design*
+a|
+* No relevant information about production.
+a|
+* Some information about design, construction, programming, component selection and the overall process, or
+* Complete information, but the descriptions are unclear.
+a|
+* Complete information about production.
+* The information is clear and concise.
+a|
+* Meets all Proficient criteria in this row, and:
+* Clearly aims to share all the knowledge another team would need to act on it.
+
+| *Data, results and discussion*
+a|
+* No data is shown, or
+* The data analysis is not relevant to the development of the project.
+a|
+* Only minor test data is shown, or
+* Significant test data is shown, but the poster does not say how it influenced the design.
+a|
+* Shows relevant test results.
+* Explains how the results led to a design change or justified keeping the design.
+* Data and results are shown clearly, for example with graphs or tables.
+a|
+* Meets all Proficient criteria in this row, and:
+* Shows a clear understanding of the link between testing, evaluation and modification.
+* Describes the test method so that others can repeat it.
+
+| *Photos and graphics*
+a|
+* Several photos or graphics are of poor quality, or
+* They are not relevant to the section they are in.
+a|
+* Relevant to the section they are in, but some are not labelled or cited.
+a|
+* Relevant.
+* Excellent quality.
+* Correctly labelled and cited.
+a|
+* Meets all Proficient criteria in this row, and:
+* The number of images suits the content.
+
+| *Layout and design*
+a|
+* No logical layout, or
+* Many spelling or grammar errors.
+a|
+* The layout is only partly logical, or
+* A few spelling or grammar errors.
+a|
+* Clear and logical layout: information is easy to find, graphics, images and text are well placed, and the font size is consistent.
+* No spelling or grammar errors.
+a|
+* Meets all Proficient criteria in this row, and:
+* An original design that shows the team's creativity and professionalism.
+
+| *Presentation at the poster session*
+a|
+* Team was not present at the poster session.
+* Poster does not meet the format requirements.
+a|
+* Team was absent for a large part of the poster session, or
+* Could not answer any questions adequately.
+a|
+* Team was present for most of the poster session.
+* Engaged with visitors.
+* Answered most questions adequately.
+a|
+* Team was present for the entire poster session.
+* Actively engaged with judges, participants and guests.
+* Did their best to answer every question.
+|===
+
+[[group-interview]]
+=== Group Interview
+
+NOTE: *Maximum 5 points.* A challenge-based interview. Judges assess teamwork, problem solving and technical understanding.
+
+==== What it is
+
+Your team takes part in a structured session together with one to three other teams. Each team is asked to complete a small robot challenge, for example programming its robot to drive in a square. You show your approach, reflect on how you worked together, and discuss with the other teams.
+
+==== What happens in the interview
+
+[cols="1,3",options="header"]
+|===
+| Part | What you do
+| *1. Show and Tell* | Show your robot to everyone. Explain its basic design and the feature you find most interesting.
+| *2. Teamwork task* | Program your robot to solve a task that the judges set on the spot. This is where you show how well you understand your robot and how you work together as a team.
+| *3. Questions* | Other teams and the judges may ask how your robot works, how you designed it and why you made your design choices.
+|===
+
+TIP: *Bring with you:* your robots, your laptops and your programming equipment.
+
+==== What the judges look for
+
+* How well your team works together.
+* How well you understand your robot's systems.
+* How clearly you explain your design choices.
+
+Active participation, respect for the other teams and involvement of the whole team are the keys to a good score.
+
+==== Questions from the judges
+
+Judges use a standard list of questions, worded to keep translation problems small. The list is in <<group-interview-questions>>. Judges may also ask follow-up questions based on your answers.
+
+==== Language support
+
+* If your team needs language help, tell us as early as possible, for example at check-in at the Soccer desk. We will try to arrange a translator.
+* The translator cannot be a mentor or guardian.
+* We cannot guarantee that a translator will be available.
+* If the judges know that students in your team find it difficult to speak English, they will give extra consideration.
+
+==== Rubric
+
+[cols="2,3,3,3,3",options="header"]
+|===
+| Criterion | Developing +
+0 points | Satisfactory +
+1 point | Proficient +
+3 points | Excellent +
+5 points
+
+| *Teamwork and communication*
+a|
+* Team was disorganised.
+* One or more members were not involved, or dominated.
+* Poor communication or conflict was clear.
+a|
+* Some coordination.
+* Communication was inconsistent or depended heavily on one person.
+a|
+* Team worked together with clear roles.
+* All members contributed meaningfully to the task.
+a|
+* Seamless collaboration.
+* Members supported each other and communicated effectively the whole time.
+
+| *Technical understanding*
+a|
+* Team struggled to explain or apply their design.
+* Robot could not complete the task, and the team could not explain what went wrong.
+a|
+* Task was completed, but the team's understanding of how their robot works was unclear or limited.
+a|
+* Solid understanding of their design.
+* Task was completed, or attempted with logical reasoning and explanation.
+a|
+* Strong technical fluency and problem solving.
+* Explanation and execution were clear, creative and insightful.
+
+| *Task execution and problem solving*
+a|
+* Task was attempted with basic or partial function.
+* Errors were not clearly diagnosed.
+a|
+* Task was completed or nearly completed.
+* Team adapted to challenges and explained their decisions well.
+a|
+* Task was completed efficiently with innovative approaches.
+* Team handled problems with confidence and a clear strategy.
+a|
+* Meets all Proficient criteria in this row, and:
+* Team compared alternatives and explained why the chosen solution works.
+|===
+
+TIP: *Good to know:* a robot that breaks down does not mean a low rating by itself. Judges look at how well you understand your robot, how you find the problem and how you explain it.
+
+[[sportsmanship]]
+=== Sportsmanship
+
+NOTE: *Maximum 3 points.* Sportsmanship is the cornerstone of any successful tournament. We do not only ask for respect, we reward it with points.
+
+==== Who it covers
+
+Sportsmanship covers the behaviour of students, mentors, parents and anyone else who attends the event with your team. Everyone is competing, but we are all here to learn and have fun. Nobody should spoil the experience for others.
+
+==== How to earn the points
+
+* Show respect for other teams, other leagues, tournament officials, hosts and locations.
+* Be on time for matches, meetings and interviews.
+* Be fair to your opponents and polite to everyone.
+* Be open about sharing what you know.
+* Do not accuse anyone of bad behaviour without a very good reason.
+
+==== Attendance
+
+* Attendance is taken at each general match, Technical Challenge, SuperTeam match and interview.
+* Come on time, and be prepared to keep your robots working for the whole event.
+* Have one team member in charge of keeping the schedule.
+* If your team cannot take part in a match or activity, tell the referees.
+
+==== Conflicts and warnings
+
+Spirits are high at a tournament, and conflicts between teams or with volunteers will sometimes happen. Handle them with respect:
+
+* Do not accuse anyone, team or referee, of deliberate wrongdoing without a very good reason.
+* Give everyone the benefit of the doubt. Most conflicts are just a misunderstanding.
+* Except in extreme cases, participants receive a warning before the tournament organisers penalise a team.
+
+==== Going further
+
+Exemplary teams improve their own community, or the RoboCupJunior community in general, by giving resources and encouragement to others. The organising committee may learn about this through its own observations, through what is presented in other categories (for example team documentation), or through nominations from another team or volunteer in the Community Award voting.
+
+[TIP]
+====
+*Also counts for Sportsmanship*
+
+* Your behaviour during the SuperTeam games (see <<superteam-challenge>>).
+* Voting for your own team in the Community Award loses Sportsmanship points (see <<community-award>>).
+====
+
+==== Rubric
+
+[cols="2,^1,8",options="header"]
+|===
+| Rating | Points | What it looks like
+
+| *Developing* | *0*
+a|
+* Disrespectful behaviour continued after warnings.
+* Team missed more than half of its matches or key challenges.
+* Did not take part in SuperTeam or Technical Challenges.
+* No defined roles in the team, relied on adults, little evidence of student ownership.
+* Had a significant negative impact on other teams' experience of the competition.
+
+| *Satisfactory* | *1*
+a|
+* Team was sometimes uncooperative or late.
+* Missed some matches or challenges.
+* Behaviour improved after reminders.
+* Some student leadership, but roles were unclear or inconsistent.
+* Sometimes escalated difficult situations, but resolved them fairly in the end.
+
+| *Proficient* | *2*
+a|
+* Team was consistently respectful and on time.
+* Took part fully in matches, SuperTeam and Technical Challenges.
+* Contributed to a positive environment.
+* Clear student-led roles and decisions. Team showed independence and problem solving.
+* Handled difficult situations calmly and fairly.
+
+| *Excellent* | *3*
+a|
+* Meets all Proficient criteria, and:
+* Actively supported others, for example shared tools, cheered for opponents and helped peers.
+* Set an outstanding example of collaboration and kindness.
+* Students mentored peers, resolved issues constructively and made sure every voice was heard.
+* Showed initiative and ownership.
+* Stopped difficult situations early, before they escalated, and behaved in a sportsmanlike way at all times.
+|===
+
+[[documentation-and-community-contribution]]
+=== Documentation and Community Contribution
+
+NOTE: *Maximum 5 points.* Teams that share their work make it possible for all future teams to build more advanced robots.
+
+==== Why it matters
+
+RoboCup's mission is to advance the field of robotics and to beat humans at soccer by the year 2050. Nobody can do this alone, so we share our knowledge freely in the spirit of academic cooperation. When you make your work available, every future team can build on it, including teams that were not at the same event.
+
+==== What you can share
+
+Contributions can take any form. Common examples are:
+
+* Write-ups and papers.
+* Videos that document your work and show how to repeat it.
+* Test results.
+* Instructions for how to do things.
+* Source code, circuit diagrams or CAD files.
+
+TIP: Sharing your work is required for the *Outstanding Documentation* certificate (see <<certificates>>).
+
+==== Rubric
+
+For *Proficient*, all Satisfactory criteria must also be met or exceeded. For *Excellent*, all Satisfactory and Proficient criteria must also be met or exceeded.
+
+[cols="2,3,3,3,3",options="header"]
+|===
+| Criterion | Developing +
+0 points | Satisfactory +
+1 point | Proficient +
+3 points | Excellent +
+5 points
+
+| *TDP*
+a|
+* TDP was not filled in, was far from complete, or had no meaningful information.
+a|
+* TDP was filled in with all required information.
+* Little or no care was taken to make the information easy to understand.
+a|
+* TDP was filled in with all available information.
+* Presented in a helpful way that is easy to understand.
+a|
+* TDP was filled in with all available information and presented well.
+* Easy to understand.
+* Includes sources and links to more helpful material.
+
+| *Poster, presentation and interview*
+a|
+* No poster was created, or
+* The poster session was not attended, or
+* No information was shared during the interview.
+a|
+* A poster was created but lacked a lot of information.
+* The poster session was attended.
+* Information was shared in the interview when asked.
+a|
+* An informative poster was created.
+* Questions were answered well during the poster session.
+* Design highlights were shown at the interview on the team's own initiative.
+a|
+* Poster was informative, detailed and well presented.
+* Design highlights were shown at the interview on the team's own initiative.
+* Both were done in a way that helps others repeat and build on the team's success.
+
+| *Open source and published materials*
+a|
+* Nothing was shared publicly.
+
+Note: on its own, this does not make your rating for the whole category Developing. We still expect anything useful to the community to be shared, in the academic spirit.
+a|
+* Only the poster and the TDP were shared publicly.
+a|
+* At least one of the following was shared publicly for other teams to benefit from:
+** test data
+** design drawings or design files
+** code
+** explanations
+** sources for materials
+a|
+* Everything others need to learn from the team's design was published (see Proficient for examples).
+* Contact details for questions are available. Forum or Discord names are encouraged.
+|===
+
+[[robot-feature-video]]
+=== Robot Feature Video
+
+NOTE: *Maximum 1 point.* A video shorter than 3 minutes about the feature of your robot that you are most proud of.
+
+==== Why we ask for it
+
+RoboCupJunior puts a lot of emphasis on innovation. At the international competition, technical problems or a very tough opponent can stop a team from showing everything its robots can do. The video gives every team the chance to show its best feature in a nutshell.
+
+==== What you need to do
+
+* Make a video *shorter than 3 minutes* about the feature you are most proud of.
+* Show the feature and explain clearly *what* it is.
+* Explain *how* it works, in a way another team can follow.
+* Explain *why* you find it the most interesting and why it has an impact on the robot.
+
+==== Rubric
+
+[cols="2,^1,8",options="header"]
+|===
+| Rating | Points | What it looks like
+| *Developing* | *0* | The explanation is not easy to follow. Other teams cannot work out what has gone into this feature of the robot.
+| *Satisfactory* | *1* | The video is easy to follow. A fellow competitor can understand how the feature was made and why it has an impact on the robot.
+|===
+
+[[community-award]]
+== Community Award
+
+The Community Award goes to the team that contributes the most to building a sense of community throughout the competition. The teams themselves vote for it.
+
+=== How the vote works
+
+. Every team votes for its *top 3 teams* in each of the three categories below.
+. In each category, your 1st choice receives *3 points*, your 2nd choice *2 points* and your 3rd choice *1 point*.
+. The team with the most voting points overall receives the award.
+
+[cols="1,4",options="header"]
+|===
+| Category | Vote for teams that...
+
+| *Documentation*
+a|
+* Created the most informative and eye-catching posters, TDP and other documentation, combining visual appeal with clear, concise information.
+* Showed strong presentation skills at the poster session: communicated their work well, answered questions thoroughly and sparked interest from other teams.
+
+| *Team Spirit*
+a|
+* Showed the most enthusiasm and the most positive attitude throughout the competition.
+* Supported and encouraged each other, showed good sportsmanship towards other teams, and added to a lively, energetic atmosphere.
+* Stayed resilient when facing challenges, celebrated successes and learned from mistakes together, with a strong team identity that inspires others.
+
+| *Most Helpful*
+a|
+* Went above and beyond to help others, with a collaborative and supportive spirit.
+* Were willing to share their knowledge, tools and resources, for example by helping to fix a technical problem or sharing strategy insights.
+* Lived the values of cooperation and community, and made the competition a positive and enriching experience for everyone.
+|===
+
+=== Example ballot
+
+[cols="2,^2,^2,^2",options="header"]
+|===
+| Category | 1st choice (3 points) | 2nd choice (2 points) | 3rd choice (1 point)
+| *Documentation* | Team A | Team B | Team C
+| *Team Spirit* | Team D | Team A | Team E
+| *Most Helpful* | Team B | Team F | Team A
+|===
+
+From this one ballot, Team A receives 3 + 2 + 1 = 6 points, Team B receives 2 + 3 = 5 points, and so on. The points from all ballots are added together.
+
+=== Voting rules
+
+[IMPORTANT]
+====
+* *Every team must vote.*
+* *You may not vote for your own team.* A team that votes for itself is excluded from this award and loses points in Sportsmanship.
+====
+
+=== What the winner receives
+
+The winning team receives the Community Award and *1 extra point* on the overall ranking. This is not enough to get ahead of a better team, but it may break a tie.
+
+[[certificates]]
+== Certificates
+
+Certificates recognise teams that did not win a trophy but still showed exceptional achievements and abilities. Trophies highlight the top overall performances. Certificates make sure every deserving team is recognised for its hard work, dedication and skills.
+
+TIP: *No limit.* There is no limit on the number of certificates. Every team that meets the requirements receives the certificate.
+
+To earn a certificate, your team must meet *all* the requirements listed for it.
+
+[cols="2,3,5",options="header"]
+|===
+| Certificate | What it recognises | Requirements (all must be met)
+
+| *Gameplay Tournament 1st, 2nd, 3rd place*
+| Teams that finish 1st, 2nd or 3rd in the Individual Gameplay Tournament. It can be awarded in addition to an overall 1st, 2nd or 3rd place trophy.
+a|
+* Competed in the gameplay tournament and finished in 1st, 2nd or 3rd place.
+
+| *Outstanding Design*
+| Teams whose robots are great examples of what the engineering design process can achieve.
+a|
+* Elements of the TDP form, Robot Feature Video, Group Interview and poster exceeded expectations.
+* Earned an overall rating of Proficient or better.
+* Performs well in the tournament, the SuperTeam Challenge or the Technical Challenges.
+
+| *Outstanding Innovation*
+| Teams that created a design that is both novel and effective, and that others can learn from.
+a|
+* The TDP form, Robot Feature Video, Group Interview and poster clearly describe an innovation that is potentially effective and instructive.
+* The effectiveness of the innovation is clear during the tournament, the Technical Challenges or the SuperTeam matches.
+* The same innovation has not been recognised in previous seasons, or the team has made significant improvements to it.
+
+| *Outstanding Documentation*
+| Teams that showed excellence in capturing and communicating their engineering process.
+a|
+* The TDP form, Robot Feature Video, Group Interview and poster are comprehensive and well organised, and clearly explain the team's engineering decisions and iterations.
+* The documentation includes several of: test results, design processes, challenges, recommendations for future teams to learn from, published designs.
+* The documentation is available online for other teams to learn from.
+
+| *Exemplary Team*
+| Teams that are the best examples of using both soft and hard engineering skills effectively. They are among the top performers, have outstanding designs or innovations, and act as community leaders for their league by pushing forward the technology available to the community.
+a|
+* Exceeded expectations in Documentation and Community Contribution and in one other category.
+* Rated Proficient or higher in every rated category. For the Robot Feature Video, which only has two ratings, this means Satisfactory.
+* Performs well in the tournament, the SuperTeam Challenge and the Technical Challenges.
+|===
+
+[[superteam-challenge]]
+== SuperTeam Challenge
+
+The SuperTeam Challenge is a side tournament held during the International Competition.
+
+[cols="1,3",options="header"]
+|===
+| Topic | How it works
+| *Format* | Usually 4 or 5 teams join together to form one SuperTeam. The SuperTeams play a mini tournament on an enlarged soccer field.
+| *How SuperTeams are formed* | Based on the Individual Gameplay ranking, so that the teams are spread into fair, balanced SuperTeams.
+| *Robots on the field* | Each team may have at most 1 robot on the SuperTeam field. The lowest-ranked teams may have 2, but only if another team has no working robot.
+| *Effect on your score* | SuperTeam results do not affect the individual team scores. However, your behaviour during the SuperTeam games does count for your Sportsmanship rating.
+| *Award* | There is 1 trophy for the winning SuperTeam. Every team in the winning SuperTeam receives this trophy.
+|===
+
+=== What we expect from SuperTeam members
+
+* Work together.
+* Help each other with technical difficulties.
+* Make sure all teams in your SuperTeam arrive at the games together.
+* Do not sideline weaker teams.
+
+Learn more in the https://robocup-junior.github.io/soccer-rules/master/superteam_rules.pdf[SuperTeam rules].
+
+:sectnums!:
+
+[[changelog]]
+== Change log
+
+[cols="4,^1",options="header"]
+|===
+| Change | Date
+| Initial document creation for the 2024 season | 2024-04-01
+| Rubric and criteria document rework for the 2025 season | 2025-05-08
+| Addition of 3 bonus points mentioned in the TDP form | 2025-06-18
+| Corrected 3 bonus points for mention in the TDP form | 2025-06-18
+| Update 2026: added rules and point system for the short form video TDP | 2026-04-10
+| Restructured and reworded for the 2027 season | 2026-11-17
+|===
+
+[appendix]
+[[group-interview-questions]]
+== Group Interview Questions
+
+[TIP]
+====
+*How judges use this list*
+
+* Judges may ask questions from this list, and may ask follow-up questions based on your answers.
+* Judges focus on things that need clarification or were missing from your presentation or design document.
+* Judges ask no more than one question from each category.
+====
+
+Text in <angle brackets> is replaced by the judges with something from your own robot.
+
+[cols="1,4",options="header"]
+|===
+| Category | Questions
+
+| *General*
+a|
+* Which of your design decisions were influenced by which testing or experience?
+* What other work did you draw inspiration from (other RCJ or Major teams, other robotics projects)? OR How did you learn how to do <this>?
+
+| *Electrical*
+a|
+* Why or how did you pick <this component / circuit>?
+* What did you blow up? OR Can you give an example of how you troubleshot your circuit?
+* What was a challenge you had when building or designing <this part> of your circuit? OR What benefits do you see from making the circuit <this> way?
+
+| *Mechanical*
+a|
+* Why did you include, or not include, <kicker / dribbler / camera / 360° view / other feature>?
+* Why did you choose <material> to build <mechanical system>?
+* How did you manufacture <this custom part>?
+
+| *Strategy*
+a|
+* If your robots are <here> on the field and the ball is <here>, what will your robots do?
+* How do your robots deal with <a blocked goal / the ball not in view / other difficult game situations>?
+* What are some tactics you use? For example hiding the ball, passing the ball or tactical positioning.
+* How did you <develop / test> your tactics and strategies?
+
+| *Software*
+a|
+* How does your robot make sense of its sensor inputs?
+* How do you avoid <going out of bounds / getting stuck / multiple defence / pushing / other problem>?
+* How do your robots <communicate / perform this function> in software?
+* How do you <debug / calibrate> your robots?
+
+| *Development and documentation*
+a|
+* What other robots, posters or papers did you take ideas from?
+* How did you keep track of ideas, both your own and from materials you read?
+* How did you keep track of what you had already tested?
+* What kinds of testing did you do (for example individual components, a full robot, both robots together)? How did you do this testing?
+|===
